@@ -111,8 +111,6 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -205,17 +203,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 Ezema Anthony Sunday
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@sonyco-4u](https://github.com/sonyco-4u)
+- Twitter: [@EZEMASUN](https://twitter.com/EZEMASUN)
+- LinkedIn: [ezema-anthony-sunday](https://www.linkedin.com/in/sunday-athony-ezema/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,8 +273,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](https://github.com/sonyco-4u/School-Library-RubyOOP/blob/master/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
