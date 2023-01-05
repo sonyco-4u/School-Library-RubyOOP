@@ -5,7 +5,7 @@ class Teacher < Person
   #   super(*args, **kwargs)
   #   @specialization = specialization
   # end
-  def initialize(age, specialization, name = "Unknown", parent_permission = true)
+  def initialize(age, specialization, name = 'Unknown', parent_permission: true)
     super(age, name, parent_permission)
     @specialization = specialization
   end
