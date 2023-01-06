@@ -1,21 +1,34 @@
-class Person
+require_relative('./name_able')
+
+class Person < Nameable
   attr_accessor :name, :age
   attr_reader :id
 
   def initialize(age, name = 'Unknown', parent_permission: true)
-    @id = Random.rand(1..1000)
+    super()
     @name = name
     @age = age
     @parent_permission = parent_permission
+    @id = Random.rand(1..1000)
   end
+
+  private
 
   def of_age?
-    @age >= 18
+    return unless @age >= 18
+
+    true
   end
 
-  private :of_age?
+  public
 
-  def can_use_services?
-    of_age? || @parent_permission
+  def can_use_services
+    return unless of_age? || @parent_permission
+
+    true
+  end
+
+  def correct_name
+    @name
   end
 end
