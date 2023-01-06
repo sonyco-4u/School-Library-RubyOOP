@@ -1,28 +1,34 @@
-require_relative('./corrector')
+require_relative('./name_able')
 
-class Person
+class Person < Nameable
   attr_accessor :name, :age
   attr_reader :id
 
   def initialize(age, name = 'Unknown', parent_permission: true)
-    @id = Random.rand(1..1000)
+    super()
     @name = name
     @age = age
-    @corrector = Corrector.new
     @parent_permission = parent_permission
+    @id = Random.rand(1..1000)
   end
+
+  private
 
   def of_age?
-    @age >= 18
+    return unless @age >= 18
+
+    true
   end
 
-  private :of_age?
+  public
 
-  def validate_name
-    @name = @corrector.correct_name(@name)
+  def can_use_services
+    return unless of_age? || @parent_permission
+
+    true
   end
 
-  def can_use_services?
-    of_age? || @parent_permission
+  def correct_name
+    @name
   end
 end
